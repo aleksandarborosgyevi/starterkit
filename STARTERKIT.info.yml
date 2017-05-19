@@ -1,0 +1,46 @@
+name: SP theme Starter Kit for Drupal Commerce
+type: theme
+description: Theme made from SP starter theme for drupal commerce.
+package: Core
+'base theme': classy
+
+force_export: false
+inherit_layout: false
+scss_support: false
+libraries:
+  - STARTERKIT/STARTERKIT
+regions:
+  branding: 'Branding'
+  user_navigation: 'User Navigation'
+  mobile_menu: 'Mobile menu'
+  navigation: 'Navigation'
+  search: 'Search'
+  highlighted: 'Highlighted'
+  preface_first: 'Preface First'
+  preface_second: 'Preface Second'
+  preface_third: 'Preface Third'
+  sidebar_first: 'Sidebar First'
+  content: 'Content'
+  sidebar_second: 'Sidebar Second'
+  postfix_first: 'Postfix First'
+  postfix_second: 'Postfix Second'
+  postfix_third: 'Postfix Third'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  footer_fifth: 'Footer Fifth'
+  footer_sixth: 'Footer Sixth'
+features:
+  logo: true
+  name: true
+  slogan: true
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  main_menu: true
+  secondary_menu: true
+version: 8.x-1.x
+core: 8.x
+datestamp: 1471512784
